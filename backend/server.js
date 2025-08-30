@@ -50,7 +50,7 @@ connectCloudinary();
 // Middlewares
 app.use(express.json({ limit: "10mb" })); // prevent payload issues
 app.use(cors({
-    origin: ["http://localhost:5174", "http://localhost:5173"],
+    origin: ["https://doctor-appointment-2-anq6.onrender.com", "https://doctor-appointment-1-snjw.onrender.com"],
     credentials: true
 }));
 
